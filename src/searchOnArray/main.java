@@ -23,7 +23,7 @@ emailId.add("ali22@gmail.com");
 emailId.add("alis_2023.@gmail.com");
 do {
 System.out.println("email ID for emploee :  \n____________________________________ \n" );
-
+serchStatus = false;
 for(String email: emailId) {
 	
 	System.out.println("email ID  :  " + email);
@@ -48,18 +48,21 @@ for(String search: emailId) {
 	serchStatus=true;
 	//else 
 		// System.out.println("email ID " + search + "  not found");	
-}
-}
-if( serchStatus == false	)
+}}
+
+if( serchStatus == false	) {
 	 System.out.println("email ID   " + searchEmail + " NOT FOUND \n \n ");
 }
 
 option="";
 searchEmail="";
 
-}else {
+}}
+else {
 	System.out.println("please enter valid option: \n");
 }
+//option="";
+//searchEmail="";
 }while(!option.contentEquals("y") || !option.contentEquals("yes"));
 
 
